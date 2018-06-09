@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>Slider with Timer and Caption </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="./css/styles.css">
+
+
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<style>
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 100% !important; /*Full Width 100%*/
+        max-height: 1%;
+        margin: auto;
+    }
+</style>
+
+<body>
+
+  <!-- Slider #1-->
+	<div class="container">
+    <div class="row">
+		<h2>Image Slider with caption and transition timer.</h2>
+	</div>
+
+    <div class="row">
+        <!-- The carousel -->
+        <div id="transition-timer-carousel" class="carousel slide transition-timer-carousel" data-ride="carousel" data-interval="2000">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#transition-timer-carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#transition-timer-carousel" data-slide-to="1"></li>
+				<li data-target="#transition-timer-carousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+
+			<div class="carousel-inner" >
+				<div class="item active">
+                    <img src="http://theliteraryplatform.com/tlp-newsite/wp-content/uploads/sites/5/2016/05/library-1200x400.jpg" />
+                    <div class="carousel-caption">
+                        <h1 class="carousel-caption-header">Library</h1>
+                        <p class="carousel-caption-text hidden-sm hidden-xs">
+                          A library is a collection of sources of information and similar resources, made accessible to a defined community for reference or borrowing.
+                          It provides physical or digital access to material, and may be a physical building or room, or a virtual space, or both.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="https://static.thecrag.com/original-image/24/af/24afe94def696342c6f75cbf0499b17ba5451d89" />
+                    <div class="carousel-caption">
+                        <h1 class="carousel-caption-header">Middle East</h1>
+                        <p class="carousel-caption-text hidden-sm hidden-xs">
+                            The Middle East is a transcontinental region centered on Western Asia, Turkey (both Asian and European), and Egypt (which is mostly in North Africa).
+                            The corresponding adjective is Middle Eastern and the derived noun is Middle Easterner. The term has come into wider usage as a replacement of the term Near East
+                            (as opposed to the Far East) beginning in the early 20th century.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="http://www.canonrumors.com/forum/index.php?action=dlattach;topic=6281.0;attach=20662;imageg" />
+                    <div class="carousel-caption">
+                        <h1 class="carousel-caption-header">Farm</h1>
+                        <p class="carousel-caption-text hidden-sm hidden-xs">
+A farm is an area of land that is devoted primarily to agricultural processes with the primary objective of producing food and other crops; it is the basic facility in food production.
+The name is used for specialised units such as arable farms, vegetable farms, fruit farms, dairy, pig and poultry farms, and land used for the production of natural fibres, biofuel and
+other commodities. It includes ranches, feedlots, orchards, plantations and estates, smallholdings and hobby farms, and includes the farmhouse and agricultural buildings as well as the
+land. In modern times the term has been extended so as to include such industrial operations as wind farms and fish farms, both of which can operate on land or sea.                        </p>
+                    </div>
+                </div>
+            </div>
+
+			<!-- Controls -->
+			<a class="left carousel-control" href="#transition-timer-carousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#transition-timer-carousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+
+            <!-- Timer "progress bar" -->
+            <!--<hr class="transition-timer-carousel-progress-bar animate" />-->
+		</div>
+    </div>
+</div>
+
+<!--End of Slider #1 -->
+
+
+<!-- Second Slider -->
+<div class="container">
+  <div class="row">
+  <h2>Image Slider with caption and transition timer #2.</h2>
+</div>
+
+  <div class="row">
+      <!-- The carousel -->
+      <div id="transition-timer-carousel2" class="carousel slide transition-timer-carousel2" data-ride="carousel" data-interval="1000">
+<!-- Data-inverval is the duration of each slide, the lower the faster  -->
+<!-- Or you can delete the data-interval and let it Run with the Timer in the CSS (.transition-timer-carousel .carousel-control)  -->
+
+
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#transition-timer-carousel2" data-slide-to="3" class="active"></li>
+      <li data-target="#transition-timer-carousel2" data-slide-to="4"></li>
+      <li data-target="#transition-timer-carousel2" data-slide-to="5"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+
+    <div class="carousel-inner">
+      <div class="item active">
+                  <img src="http://www.oconnorstrata.com.au/wp-content/uploads/2016/10/WSG00064-1200x400.jpg" />
+                  <div class="carousel-caption">
+                      <h1 class="carousel-caption-header">Boats in the Sea</h1>
+                      <p class="carousel-caption-text hidden-sm hidden-xs">
+                        A boat is a watercraft of a large range of type and size. Ships are generally distinguished
+                        from boats based on their larger size, shape, and cargo or passenger capacity.
+                      </p>
+                  </div>
+              </div>
+
+              <div class="item">
+                  <img src="http://www.canonrumors.com/forum/index.php?action=dlattach;topic=6281.0;attach=20663;image" />
+                  <div class="carousel-caption">
+                      <h1 class="carousel-caption-header">Farm land for sale</h1>
+                      <p class="carousel-caption-text hidden-sm hidden-xs">
+                          Lands of America is the largest rural listing service in the Nation. The Network specializes in land for Sale which includes farms, ranches, mountain property,
+                          lake houses, river homes, beachfront homes, country homes, and residential homes.
+                      </p>
+                  </div>
+              </div>
+
+              <div class="item">
+                  <img src="http://www.paulist.org/app/uploads/2016/06/landings-balloon-alt-1200x400.jpg" />
+                  <div class="carousel-caption">
+                      <h1 class="carousel-caption-header">Hot Air Ballon</h1>
+                      <p class="carousel-caption-text hidden-sm hidden-xs">
+                        Hot air balloon
+                        A hot air balloon is a lighter-than-air aircraft consisting of a bag, called an envelope, which contains heated air. Suspended beneath is a gondola or wicker
+                        basket, which carries passengers and a source of heat, in most cases an open flame. The heated air inside the envelope makes it buoyant since it has a lower
+                        density than the colder air outside the envelope.
+                      </p>
+                  </div>
+              </div>
+          </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#transition-timer-carousel2" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#transition-timer-carousel2" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+
+          <!-- Timer "progress bar, but you have to time it with the data-interval or just delete data-interval and let it run with the CSS (Will work like that)" -->
+          <!--<hr class="transition-timer-carousel-progress-bar2 animate" />-->
+
+  </div>
+  </div>
+<br>
+<br>
+</div>
+<!-- End of Slider #2-->
+
+
+<script src="./js/slider.js"></script>
+</body>
+</html>
